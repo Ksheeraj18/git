@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, #dbeafe, #f0f9ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e293b;
+    line-height: 1.7;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: #3b82f6;
+    font-size: 3em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 128, 0.2);
+}
+
+.rama {
+    display: block;
+    margin: 40px auto;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border: 6px solid #60a5fa;
+    transition: transform 0.4s ease;
+}
+
+.rama:hover {
+    transform: scale(1.07);
+}
+
+h2 {
+    color: #0f172a;
+    margin-top: 40px;
+    font-size: 1.9em;
+    border-left: 6px solid #6366f1;
+    padding-left: 12px;
+}
+
+p {
+    font-size: 1.15em;
+    padding: 0 10%;
+    text-align: justify;
+    color: #1e293b;
+}
+
+.blessing {
+    text-align: center;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: #065f46;
+    background-color: #d1fae5;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.blessing:hover {
+    background-color: #a7f3d0;
+    transform: scale(1.03);
+}
+
+b i {
+    color: #4b5563;
+    font-weight: 600;
+}
